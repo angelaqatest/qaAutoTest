@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="WebAutoTestAF" verbose="2" thread-count="2" parallel="classes">
-    <test name="e2e Test">
-        <classes>
-            <class name="com.pactera.qaAutoTest.App"><!--指向测试类路径-->
-            </class>
-        </classes>
-    </test>
-</suite>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
